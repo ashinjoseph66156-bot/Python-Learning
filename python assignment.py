@@ -1,0 +1,27 @@
+print("Hello " + input("What is your name? ")+", welcome to Python programming")
+# slicing and indexing
+text=("hello zara,welcome to python programing")
+print(text[0])
+print(text[-1])
+print(text[:5])
+print(text[-11:])
+print(text[::-1])
+print(text[21:29])
+# string methods
+text=("Python beginner tutorial")
+print(text)
+print(text.upper())
+print(text.lower())
+print(text.capitalize())
+print(text.count("t"))
+text = "Python beginner tutorial"
+print(text.replace("Python", "Machine Learning"))
+#tuples()
+tuple_1 =(10,20,30)
+tuple_2 =(40,50,60)
+t_combine = tuple_1+ tuple_2
+print(t_combine)
+print(t_combine*3)
+print(t_combine[2])
+print(t_combine[:3])
+print(t_combine[-3:])
